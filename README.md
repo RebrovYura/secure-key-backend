@@ -1,2 +1,2 @@
-# secure-key-backend
+# SecureKey backend
 Backend for SecureKey
