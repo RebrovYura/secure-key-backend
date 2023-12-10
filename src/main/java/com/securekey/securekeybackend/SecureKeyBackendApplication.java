@@ -7,14 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SecureKeyBackendApplication {
 
-	private JWTCore jwtCore;
-
-	public void setJwtCore(JwtCore jwtCore) {
-		this.jwtCore = jswtCore;
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(SecureKeyBackendApplication.class, args);
 	}
-
 }
